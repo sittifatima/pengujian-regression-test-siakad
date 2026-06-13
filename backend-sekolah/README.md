@@ -199,3 +199,14 @@ backend-sekolah/
 │   └── validateMapel.test.js  # Unit test validasi
 └── .github/workflows/test.yml # GitHub Actions CI
 ```
+
+## Hasil Pengujian
+
+### Code Coverage
+![Coverage Report](./coverage-report.png)
+
+### Demonstrasi Regresi — Test Gagal Setelah Validasi Dikomentari
+![Regresi Fail](./regresi-fail.png)
+
+### Demonstrasi Regresi — Test Lulus Kembali Setelah Diperbaiki
+![Regresi Pass](./regresi-pass.png)
